@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import MiComponente from './MiComponente';
+import { SegundoComponente } from './SegundoComponente';
 
 function App() {
   return (
@@ -13,7 +14,14 @@ function App() {
      
 
         {/*Cargar mi primer componente */}
-        <MiComponente />
+        <div className='componentes'>
+          
+          <hr/>
+          <SegundoComponente />
+          <hr/>
+          <MiComponente />
+       
+        </div>
 
       </header>
     </div>
