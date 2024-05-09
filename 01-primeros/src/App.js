@@ -12,11 +12,9 @@ function App() {
         </p>
      
 
-      {/*Cargar mi primer componente */}
-      <MiComponente />
-      <MiComponente />
-      <MiComponente />
-      <MiComponente />
+        {/*Cargar mi primer componente */}
+        <MiComponente />
+
       </header>
     </div>
   );
